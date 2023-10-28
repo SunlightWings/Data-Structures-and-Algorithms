@@ -1,1 +1,22 @@
+Definition:
+    Merge Sort is a highly efficient, stable, and comparison-based sorting algorithm that divides an array into smaller, more manageable pieces, sorts them, and then merges them back together.
 
+Advantages:
+    -Efficiency: Highly efficient for large datasets.
+    -Stability: Maintains the relative order of equal elements.
+    -Parallelizable: Can be implemented efficiently in parallel processing.
+
+Disadvantages:
+    -Space Complexity: Requires additional memory space proportional to the size of the original array.
+
+Real-Life Applicable Examples:
+    -External Hard Drives: Useful for sorting and organizing large files.
+    -Database Sorting: Applied in sorting large datasets in databases.
+
+Time and Space Complexity:
+    -Time Complexity:
+        Best Case: O(n log n)
+        Average Case: O(n log n)
+        Worst Case: O(n log n)
+    -Space Complexity:
+        O(n) for additional memory during merging.
