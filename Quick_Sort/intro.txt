@@ -1,1 +1,26 @@
+    Definition:
+        Quick Sort is a highly efficient, comparison-based sorting algorithm known for its speed and effectiveness on a wide range of datasets.
+
+    Advantages:
+        -Efficiency: One of the fastest sorting algorithms, especially for large datasets.
+        -In-Place Sorting: Requires very little additional memory space.
+        -Good Average Case: Works well on average with O(n log n) time complexity.
+
+    Disadvantages:
+        -Worst-Case Performance: Can have poor performance on already sorted or nearly sorted arrays.
+
+    Applications:
+        -General Sorting: Widely used for sorting large datasets in various applications.
+        -Sorting Libraries: Forms the basis of many standard library sorting functions.
+
+    Real-Life Applicable Examples:
+        -Libraries and Databases: Utilized for sorting and organizing large collections of data.
+        -File Systems: Applied in file systems to maintain order of files and directories.
+
+    Time and Space Complexity:
+        -Time Complexity:
+            Best Case: O(n log n)
+            Average Case: O(n log n)
+            Worst Case: O(n^2) (rare, but possible)
+        -Space Complexity: O(log n)
 
