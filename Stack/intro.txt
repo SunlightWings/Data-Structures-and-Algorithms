@@ -1,1 +1,19 @@
+Definition:
+    A stack is a linear data structure that follows the Last-In, First-Out (LIFO) principle, where the last element added is the first one to be removed.
 
+Advantages:
+    -Efficient for managing function calls and recursion in programming.
+    -Simple and fast operations: push, pop, peek.
+
+Disadvantages:
+    -Limited in size and can lead to stack overflow if not managed properly.
+    -Not suitable for searching or accessing elements at arbitrary positions.
+
+Applications:
+    -Algorithm Evaluations: Used in evaluating arithmetic expressions (e.g., infix to postfix conversion).
+    -Function Calls: Keeps track of function calls in programs.
+    -Backtracking Algorithms: Essential in algorithms like Depth-First Search (DFS).
+
+Implementation in Real Problems:
+    -Web Browsers:  Utilized in the browser's history feature (forward and backward navigation).
+    -Undo Features in Text Editors: Allows users to revert changes in a text document.
