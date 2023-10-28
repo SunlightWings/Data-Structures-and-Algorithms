@@ -1,1 +1,17 @@
+Definition:
+    A queue is a linear data structure that follows the First-In, First-Out (FIFO) principle. The element that enters first is the first to be removed.
 
+Advantages:
+    -Efficient for process management in operating systems.
+    -Fundamental in breadth-first search (BFS) algorithms.
+
+Disadvantages:
+    -Not suitable for tasks that require random access to elements.
+
+Applications:
+    -Operating Systems: Manages processes in a first-come, first-served manner.
+    -Print Queue: Organizes print jobs in submission order.
+
+Implementation Examples:
+    -BFS Algorithms: Used for efficient tree or graph traversal.
+    -Scheduling Algorithms: Determines the next task or process to execute.
