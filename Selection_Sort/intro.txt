@@ -1,1 +1,23 @@
-S
+Definition:
+    Selection Sort is a simple comparison-based sorting algorithm that divides the input array into two parts: the sorted part and the unsorted part. It repeatedly selects the smallest (or largest) element       from the unsorted part and swaps it with the first element of the unsorted part.
+
+Advantages:
+    -Simplicity: Easy to understand and implement.
+    -In-Place Sorting: Requires very little additional memory space.
+
+Disadvantages:
+    -Inefficiency: Inefficient for large datasets, as it has a time complexity of O(n^2).
+    -Lack of Adaptivity: Doesn't adapt to the data, performs the same steps regardless of the input.
+
+Applications:
+    -Small Datasets: Can be suitable for sorting very small datasets where simplicity is more important than efficiency.
+    -Teaching Tool: Frequently used in educational contexts to teach basic sorting concepts.
+
+Real-Life Applicable Examples:
+    -Education: Used as a pedagogical tool to introduce sorting algorithms due to its simplicity.
+    -Simple Scenarios: Applicable in situations where efficiency is less critical compared to simplicity.
+
+Time Complexity:
+        Best Case: O(n^2)
+        Average Case: O(n^2)
+        Worst Case: O(n^2)
