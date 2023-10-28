@@ -1,1 +1,23 @@
+Definition:
+    Bubble Sort is a simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
 
+Advantages:
+    -Simplicity: Easy to understand and implement.
+    -Space Complexity: Requires very little additional memory space.
+
+Disadvantages:
+    -Inefficiency: Inefficient for large datasets, especially in its basic form.
+    -Quadratic Time Complexity: Has a time complexity of O(n^2) in the worst case.
+
+Applications:
+    -Educational Purposes: Often used to introduce sorting algorithms due to its simplicity.
+    -Rare Use in Practice: Occasionally used in specific scenarios where simplicity is more important than efficiency.
+
+Real-Life Applicable Examples:
+    -Small Datasets: Can be suitable for sorting very small datasets where efficiency is less critical.
+    -Teaching Tool: Frequently used in educational contexts to teach basic sorting concepts.
+
+Time Complexity:
+        Best Case: O(n) (when the list is already sorted)
+        Average Case: O(n^2)
+        Worst Case: O(n^2)
