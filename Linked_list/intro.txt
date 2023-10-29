@@ -1,1 +1,43 @@
+1. Singly Linked List
+
+Definition:
+    A singly linked list is a linear data structure where elements, known as nodes, are connected via pointers. Each node contains data and a reference (pointer) to the next node.
+
+Advantages:
+    -Dynamic Size: Can grow or shrink as needed during program execution.
+    -Efficient Insertions and Deletions: Insertion and deletion operations are efficient, especially at the beginning.
+
+Disadvantages:
+    -Inefficient Indexing: Finding the nth item requires sequential search, which is less efficient compared to arrays.
+
+Applications:
+    -Dynamic Data Storage: Used in scenarios where the size of the data is not known in advance.
+    -Implementation of Stacks and Queues: Linked lists serve as the underlying data structure for these abstract data types.
+
+Time Complexity:
+    -Insertion: O(1)
+    -Deletion: O(1)
+    -Indexing: O(n)
+    -Searching: O(n)
+
+
+2. Doubly Linked List
+
+Definition:
+    A doubly linked list is a linear data structure where each node contains data, a reference (pointer) to the next node, and a reference (pointer) to the previous node.
+
+Advantages:
+    -Bidirectional Traversal: Allows both forward and backward traversal efficiently.
+    -Efficient Deletions: Deletion of a node without knowing the previous node is possible.
+
+Disadvantages:
+    -Additional Memory Usage: Requires more memory due to the additional pointer for the previous node.
+
+Applications:
+    -Forward and Backward Traversal: Used in scenarios where both forward and backward navigation is needed.
+    -Implementing Undo Functionality: Allows efficient reversal of actions.
+
+Real-Life Applicable Examples:
+    -Text Editors: Used to implement undo-redo functionality, allowing users to revert to previous states.
+    -Music Player with Shuffle: Keeps track of the previous and next tracks for efficient navigation.
 
