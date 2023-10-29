@@ -1,1 +1,61 @@
+    Definition:
+        A tree is a hierarchical data structure that consists of nodes connected by edges. Each node has a parent node and zero or more child nodes.
 
+    Applications of Trees:
+        -Hierarchical Data Representation: Trees are used to represent hierarchical relationships, such as file systems, organizational structures, or taxonomies.
+        -Searching and Sorting: Binary Search Trees (BSTs) are used for efficient searching, insertion, and deletion of data.
+        -Routing Algorithms: Trees are used in networking for efficient data packet routing.
+        -Compositing Digital Images: In visual effects and computer graphics, trees are used to represent image compositing workflows.
+
+    Types of Binary Trees:
+        -Full Binary Tree:
+            Every node has 0 or 2 children.
+        -Complete Binary Tree:
+            All levels are completely filled except possibly the last level, which is filled from left to right.
+        -Perfect Binary Tree:
+            All internal nodes have two children, and all leaves are at the same level.
+        -Balanced Binary Tree:
+            Height of the tree is O(log n) where n is the number of nodes. Provides efficient search, insert, and delete operations.
+        -Degenerate (Pathological) Tree:
+            Every internal node has one child. It performs similarly to a linked list in terms of performance.
+
+    Tree Traversal:
+        -Inorder (left, data, right): Traverse left subtree, visit the current node, then traverse the right subtree.
+        -Preorder (data, left, right): Visit the current node, traverse the left subtree, then traverse the right subtree.
+        -Postorder (left, right, data): Traverse left subtree, traverse right subtree, then visit the current node.
+
+    Advantages of Trees:
+        -Efficient for representing hierarchical relationships.
+        -Efficient for searching, inserting, and deleting data in specific types of trees like Binary Search Trees (BSTs).
+
+    Disadvantages of Trees:
+        -Inefficient for certain operations (e.g., indexing) compared to linear data structures like arrays.
+        -Some types of trees may require more memory due to additional pointers.
+
+    Real-Life Applicable Examples:
+        -File Systems: Used to organize files and directories hierarchically.
+        -Organizational Hierarchies: Representing management structures in companies.
+        -Internet Routing: Used in routing algorithms to find the shortest path between nodes.
+
+    Time Complexity:
+   1. Binary Tree:
+    -Searching:
+        Average Case: O(log n) - In a balanced binary search tree (BST), where n is the number of nodes.
+        Worst Case: O(n) - In a degenerate tree (essentially a linked list).
+    -Inserting:
+        Average Case: O(log n) - In a balanced BST.
+        Worst Case: O(n) - In a degenerate tree.
+    -Deleting:
+        Average Case: O(log n) - In a balanced BST.
+        Worst Case: O(n) - In a degenerate tree.
+
+   2. B-tree: B-trees are balanced search trees designed to work well on disk storage and other secondary storage devices.
+    -Searching:
+        Average Case: O(log n) - B-trees are designed to keep the height balanced.
+        Worst Case: O(log n) - Even in the worst case, B-trees maintain a balanced structure.
+    -Inserting:
+        Average Case: O(log n) - B-trees perform a search operation before insertion, which takes O(log n) time.
+        Worst Case: O(log n)
+    -Deleting:
+        Average Case: O(log n) - Similar to insertion, B-trees perform a search operation before deletion, which takes O(log n) time.
+        Worst Case: O(log n)
