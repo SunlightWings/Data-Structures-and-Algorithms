@@ -26,28 +26,29 @@ This repository contains implementations of various data structures and algorith
    - Binary Tre
    - Tree Traversal Algorithms (Inorder, Preorder, Postorder)
 
-## Upcoming Implementations:
-
-1. **Searching Algorithms**
+6. **Searching Algorithms**
    - Linear Search
    - Binary Search
-   - ...
+   - Jump Search
 
-2. **Additional Sorting Algorithms**
+## Upcoming Implementations:
+
+
+1. **Additional Sorting Algorithms**
    - Bucket Sort
    - Counting Sort
    - ...
 
-3. **Graph**
+2. **Graph**
    - Implementation of Graph data structure.
    - Graph Traversal Algorithms (DFS, BFS)
 
-4. **Arrays**
+3. **Arrays**
    - Dynamic Arrays
    - Static Arrays
    - ...
 
-5. **Heap**
+4. **Heap**
    - Min-Heap
    - Max-Heap
    - ...
