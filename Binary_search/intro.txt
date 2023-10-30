@@ -1,1 +1,33 @@
+Binary Search
+Binary search is an efficient algorithm for finding a target value within a sorted array. It works by repeatedly dividing the search interval in half. The key idea is to compare the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half until the target is found or the interval is empty.
 
+Algorithm Steps:
+    Initialize two pointers, left and right, to the start and end of the sorted array respectively.
+    Calculate the mid index as the average of left and right.
+    Compare the element at mid with the target value.
+        If they are equal, the target is found and the algorithm terminates.
+        If the element at mid is less than the target, set left = mid + 1. The search continues in the right half.
+        If the element at mid is greater than the target, set right = mid - 1. The search continues in the left half.
+    Repeat steps 2 and 3 until left is less than or equal to right.
+
+Advantages:
+    -Efficient for searching in sorted data.
+    -Reduces the search space in half after each comparison.
+
+Disadvantages:
+    -Requires the array to be sorted beforehand.
+    -Not suitable for unsorted or dynamically changing data.
+
+Applications:
+    Binary search is used in various applications including searching in databases, libraries, and more. It is a fundamental algorithm used in many computer science applications.
+
+Time Complexity:
+    Best Case: O(1)
+    Average Case: O(log n)
+    Worst Case: O(log n)
+
+Space Complexity:
+    O(1) (Constant space used for storing pointers and variables)
+
+Note:
+Binary search is highly efficient for large datasets as it reduces the search space exponentially. However, it requires the data to be sorted, which can be an additional preprocessing step.
