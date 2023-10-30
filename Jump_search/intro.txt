@@ -1,1 +1,27 @@
+Jump Search
+Jump Search is a searching algorithm that works on sorted arrays. It is similar to Binary Search, but instead of dividing the array into two halves, Jump Search divides the array into smaller blocks and performs a linear search within these blocks. This approach combines the efficiency of binary search with the simplicity of linear search.
 
+Algorithm Steps:
+1. Define the jump step size: Jump Search works by defining a step size (usually the square root of the array length) to traverse the array.
+2. Jumping and Comparing: The algorithm starts by jumping to positions at intervals of the step size, and compares the element at that position with the target element.
+3. Adjusting the Range: If the element at the current position is smaller than the target, the algorithm continues to jump. Once it finds a block where the target element is greater, it switches to a linear search within that block.
+4. Linear Search within Blocks: After identifying the block where the target element may reside, the algorithm performs a linear search within that block to find the exact position of the target.
+5. Element Found: If the target element is found, the algorithm returns its position. Otherwise, it indicates that the element is not present in the array.
+
+Advantages:
+- Jump Search is faster than linear search, especially for large arrays.
+- It is simple to implement and does not require the array to be sorted.
+
+Disadvantages:
+- Like binary search, the array must be sorted for Jump Search to work correctly.
+- It may not be as efficient as binary search for some cases.
+
+Applications:
+- Jump Search can be applied in scenarios where the data is sorted and there is a need to perform efficient searches, especially in situations where binary search is not feasible.
+
+Time Complexity:
+- The time complexity of Jump Search is O(√n), where n is the length of the array.
+
+Example Usage:
+(arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19], target = 7)
+Result: Element 7 found at index 3.
