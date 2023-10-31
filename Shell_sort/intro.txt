@@ -1,1 +1,26 @@
+Shell Sort
+-Shell Sort is an in-place comparison-based sorting algorithm. It improves upon the Insertion Sort algorithm by breaking the original list into smaller sublists. The unique feature of Shell Sort is that it compares and sorts elements that are distant from each other.
 
+Algorithm Overview
+    -Choose an interval: Select a gap size (interval) that is used to create subarrays.
+    -Iterative Comparison: For each interval, compare elements that are distance 'interval' apart.
+    -Sort Subarrays: Sort the subarrays using an efficient sorting algorithm (usually Insertion Sort) with the chosen interval.
+    -Reduce the interval: Continue the process with a reduced interval until the final iteration with an interval of 1.
+
+Advantages
+    -Shell Sort performs significantly better than simple quadratic sorting algorithms, especially for large datasets.
+    -It is an in-place sorting algorithm.
+
+Disadvantages
+    -The best gap sequence for Shell Sort is still an open question, and different sequences may provide varying performance.
+
+Applications
+    -Shell Sort is used when memory is a constraint, and there is a need for an in-place sorting algorithm.
+    -It is suitable for medium-sized data sets.
+
+Time Complexity
+    Shell Sort has an average and worst-case time complexity between O(n) and O(n^2), depending on the chosen gap sequence.
+    It is considered more efficient than simple quadratic sorting algorithms like Bubble Sort or Insertion Sort.
+
+Space Complexity
+    Shell Sort is an in-place sorting algorithm, which means it doesn't require extra memory allocation.
