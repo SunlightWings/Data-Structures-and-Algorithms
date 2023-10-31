@@ -11,6 +11,9 @@ This repository contains implementations of various data structures and algorith
    - Selection Sort
    - Radix Sort
    - Quick Sort
+   - Bucket Sort
+   - Counting Sort
+   - Shell Sort
 
 2. **Stack**
    - Implementation of a Stack data structure.
@@ -34,21 +37,16 @@ This repository contains implementations of various data structures and algorith
 ## Upcoming Implementations:
 
 
-1. **Additional Sorting Algorithms**
-   - Bucket Sort
-   - Counting Sort
-   - ...
-
-2. **Graph**
+1. **Graph**
    - Implementation of Graph data structure.
    - Graph Traversal Algorithms (DFS, BFS)
 
-3. **Arrays**
+2. **Arrays**
    - Dynamic Arrays
    - Static Arrays
    - ...
 
-4. **Heap**
+3. **Heap**
    - Min-Heap
    - Max-Heap
    - ...
