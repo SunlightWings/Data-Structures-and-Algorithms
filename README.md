@@ -33,6 +33,7 @@ This repository contains implementations of various data structures and algorith
    - Linear Search
    - Binary Search
    - Jump Search
+   - Interpolation Search
 
 ## Upcoming Implementations:
 
