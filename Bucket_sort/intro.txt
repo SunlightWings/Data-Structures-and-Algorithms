@@ -1,1 +1,29 @@
+Bucket Sort
+Bucket Sort is a comparison sort algorithm that distributes the elements of an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm. It is most effective when the input is uniformly distributed across the range.
+
+Advantages:
+1. Efficient for uniformly distributed data.
+2. Works well for a large range of input data.
+3. Relatively easy to implement.
+
+Disadvantages:
+1. Inefficient for data that is heavily skewed towards one end.
+2. Requires additional space to store buckets.
+
+Application:
+1. Bucket Sort is useful for sorting data that falls within a certain range, where the range is known in advance.
+2. It is used in various applications where data is uniformly distributed.
+
+Example:
+Consider an array of floating-point numbers between 0 and 1. Bucket Sort can be applied by dividing the range into smaller intervals (buckets) and sorting the elements within each bucket.
+
+Time Complexity:
+- Best Case: O(n + k) (when elements are uniformly distributed)
+- Average Case: O(n + k)
+- Worst Case: O(n^2) (if all elements are placed in a single bucket)
+
+Space Complexity:
+- O(n * k) (including space for buckets and elements within them)
+
+Note: 'n' is the number of elements to be sorted, and 'k' is the number of buckets.
 
