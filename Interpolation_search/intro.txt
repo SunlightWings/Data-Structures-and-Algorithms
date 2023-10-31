@@ -1,1 +1,55 @@
+Interpolation Search
+-Interpolation search is an algorithm used to search for a key in a sorted array where the values are uniformly distributed. Unlike Binary Search, which always goes to the middle element, Interpolation Search dynamically adjusts its search position based on the value of the key being searched. This makes it more efficient in certain scenarios, particularly when elements are uniformly distributed.
 
+The formula used in Interpolation Search is:
+pos = lo + [ (x - arr[lo]) * (hi - lo) / (arr[hi] - arr[lo]) ]
+Where:
+- pos: Position of the key being searched.
+- x: Element to be searched.
+- arr[]: The sorted array.
+- lo: Starting index in the array.
+- hi: Ending index in the array.
+
+Derivation of Formula:
+1. Assume that the elements in the array are linearly distributed.
+2. General equation of a line: y = m*x + c, where y is the value in the array and x is its index.
+3. Substitute lo, hi, and x into the equation:
+   - arr[hi] = m*hi + c   ----(1)
+   - arr[lo] = m*lo + c   ----(2)
+   - x = m*pos + c       ----(3)
+4. Solve for m, which is the slope:
+   - m = (arr[hi] - arr[lo]) / (hi - lo)
+5. Subtract equation (2) from (3):
+   - x - arr[lo] = m * (pos - lo)
+   - lo + (x - arr[lo]) / m = pos
+   - pos = lo + (x - arr[lo]) * (hi - lo) / (arr[hi] - arr[lo])
+
+This formula allows Interpolation Search to estimate the probable position of the key based on its value, resulting in a more efficient search process.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Difference between Binary Search and Interpolation Search:
+-Binary Search and Interpolation Search are both searching algorithms used to find an element in a sorted array. Here are the key differences between the two:
+
+    Search Strategy:
+        -Binary Search: Always goes to the middle element for comparison.
+        -Interpolation Search: Dynamically adjusts its search position based on the value of the key being searched, potentially leading to different positions.
+
+    Distribution of Elements:
+        -Binary Search: Assumes uniform distribution of elements.
+        -Interpolation Search: Works efficiently when elements are uniformly distributed.
+
+    Formula Use:
+        -Binary Search: Does not rely on a specific formula for finding the position.
+        [-Interpolation Search: Uses a specific formula to estimate the position based on key value.
+
+    Performance:
+        -Binary Search: Performs well for uniformly distributed elements but can be inefficient if the distribution is skewed.
+        -Interpolation Search: More efficient for uniformly distributed elements, but may perform poorly for non-uniform distributions.
+
+    Worst Case Time Complexity:
+        -Binary Search: O(log n)
+        -Interpolation Search: O(log log n) for uniformly distributed elements, but can be O(n) for non-uniform distributions.
+
+    Use Cases:
+        -Binary Search: Widely applicable and efficient for various scenarios.
+        -Interpolation Search: Particularly effective when elements are evenly spaced.
