@@ -1,1 +1,22 @@
+Breadth-First Search (BFS)
+-Breadth-First Search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts from the root (or any arbitrary node) and explores all the vertices at the present depth before moving to the vertices at the next depth level.
 
+Algorithm:
+    -Start from an initial node.
+    -Enqueue the node and mark it as visited.
+    -Dequeue a node and explore its unvisited adjacent nodes.
+    -Enqueue the unvisited adjacent nodes.
+    -Repeat steps 3 and 4 until the queue is empty.
+
+Time Complexity:
+-The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges. This is because, in the worst case, we visit all vertices and edges.
+
+Space Complexity:
+-The space complexity of BFS is O(V), where V is the number of vertices. This is due to the space used by the queue data structure.
+
+Applications:
+    -Finding the shortest path between two nodes in an unweighted graph.
+    -inding the connected components in an undirected graph.
+    -Solving puzzles with multiple states and transitions.
+
+BFS is a versatile algorithm that finds applications in a wide range of fields, including network routing, game theory, and social network analysis. It is a fundamental tool for exploring graphs and finding efficient paths in various scenarios.
