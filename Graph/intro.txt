@@ -1,1 +1,49 @@
+Graph Implementation
+A graph is a data structure that consists of a finite set of vertices (nodes) and a set of edges connecting these vertices. It is a powerful data structure used to represent complex relationships between objects.
 
+Implementation Details:
+    -Adjacency Matrix:
+        In this implementation, we use a 2D array to represent the connections between vertices. A value of 1 at graph[i][j] indicates an edge between vertex i and vertex j.
+    -Adding Edges:
+        The addEdge(v, w) method adds an undirected edge between vertices v and w.
+    -Adding Vertices:
+        The addVertex(v) method adds a new vertex to the graph.
+    -Printing the Graph:
+        The printGraph() method displays the adjacency matrix representing the graph.
+
+Types of Graphs:
+    -Undirected Graph:
+        Graph in which edges have no direction. (e.g., Social networks)
+
+    -Directed Graph (Digraph):
+        Graph in which edges have a direction from one vertex to another. (e.g., Website links)
+
+    -Weighted Graph:
+        Graph in which edges have weights (values) representing some cost or distance. (e.g., Road networks)
+
+    -Unweighted Graph:
+        Graph in which edges have no associated weights.
+
+    -Cyclic Graph:
+        Graph that contains at least one cycle.
+
+    -Acyclic Graph (DAG):
+        Directed graph without any cycles.
+
+    -Connected Graph:
+        Graph in which there is a path from any vertex to any other vertex.
+
+    -Disconnected Graph:
+        Graph with some vertices not reachable from others.
+
+    -Complete Graph:
+        Graph in which each pair of distinct vertices is connected by a unique edge.
+
+    -Sparse Graph:
+        Graph with a small number of edges compared to the number of vertices.
+
+    -Dense Graph:
+        Graph with a large number of edges compared to the number of vertices.
+
+    -Bipartite Graph:
+        Graph whose vertex set can be divided into two disjoint sets, such that no two vertices within the same set are adjacent.
