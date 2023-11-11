@@ -1,1 +1,20 @@
+Radix sort is a non-comparative integer sorting algorithm that processes digits one at a time. While not as widely used as some other sorting algorithms, it excels in specific scenarios and provides insights into the efficiency of sorting algorithms for varied data structures
 
+Algorithm Steps:
+    -Identify the maximum number to determine the number of digits.
+    -terate through each digit place, from the least significant to the most significant.
+    -Use a stable sorting algorithm (e.g., counting sort) to sort elements based on the current digit.
+    -Repeat the process for each digit place.
+
+Time Complexity:
+    Best Case: O(nk)
+    Average Case: O(nk)
+    Worst Case: O(nk)
+(Here, 'n' is the number of elements, and 'k' is the number of digits in the maximum number.)
+
+Space Complexity:
+    O(n + k) (additional space for counting sort)
+
+Application Areas:
+    -Radix sort is often used in scenarios where the range of numbers to be sorted is known and not very large.
+    -It is suitable for sorting integers, strings, or keys with multiple, distinct parts.
